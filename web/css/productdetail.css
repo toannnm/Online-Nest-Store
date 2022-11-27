@@ -1,0 +1,18 @@
+#buy-button{
+    height: 45px;
+    border:none;
+    background-color: #4B5548;
+    color:white;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+ul.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.thumb li {
+    list-style: none;    
+}

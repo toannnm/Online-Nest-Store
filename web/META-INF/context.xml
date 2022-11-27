@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/NestF">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="NestF" password="123" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=NestF;" username="sa"/>
+</Context>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <footer class="d-flex text-start">
+            <div class="col-4">
+                <p><b>Liên hệ chúng tôi</b><br><br>
+                    <span>Số điện thoại: 01234123</span><br>
+                    <span>Email: nestf@gmail.com</span><br>
+                    <span>Địa chỉ văn phòng HCM: 356/8 Bạch Đằng, P14, Q.Bình Thạnh, TP.Hồ Chí Minh.</span><br>
+                    <span><a href="https://www.facebook.com/"><img src="img/Facebook_f_logo_(2019).svg" width="32" height="32"/></a>
+                        <a href="https://www.zalo.me"><img src="img/zalo-icon.png" width="32" height="32"/></a>
+                    </span>
+                    
+                </p>
+            </div>
+            <div class="col-3">
+                <p><b>Chính sách</b><br><br>
+                    <span>Chính sách bảo mật</span>
+                    <br><span>Thoả thuận sử dụng</span>
+                    <br><span>Chính sách mua hàng</span>
+                    <br><span>Thanh toán và đổi trả</span>
+                        
+                </p>
+            </div>
+            <div id="map" class="col-5">
+            </div>
+        </footer>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkUXHb1MaNjHrAd4Trs7r4py6yJbqRk_E&callback=initMap&v=weekly"
+            defer
+        ></script>
+        <script>
+            function initMap() {
+                const myLatLng = {lat: 10.803206862567379, lng: 106.70277952173093};
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 15,
+                    center: myLatLng,
+                });
+
+                new google.maps.Marker({
+                    position: myLatLng,
+                    map,
+                    title: "Nest-F",
+                });
+            }
+
+            window.initMap = initMap;
+        </script>
+    </body>
+</html>

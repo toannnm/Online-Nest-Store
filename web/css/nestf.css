@@ -1,0 +1,263 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+body{
+    background-color: #E5E5E5;
+}
+div{
+    padding: 0!important;
+}
+button img{
+    width: 20px;
+    height:20px;
+}
+.current-tab{
+    color:white!important;
+}
+li:has(.current-tab){
+    background-color: #4B5548;
+}
+#navbar nav ul{
+    margin:0;
+    height: 8vh;
+    padding: 0;
+}
+#navbar nav ul li{
+    display: flex!important;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+#dropDownContent{
+    width:165px;
+    z-index: 2;  
+}
+#dropDownMenu:hover #dropDownContent{
+    display: block!important;
+}
+#dropDownContent a:hover{
+    font-weight: bold;
+}
+.nav-link i{
+    margin-right: 10px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+input[type=text],input[type=password],#register-form input[type=number]{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden; 
+    border-bottom: #747272 2px solid;
+    background-color: transparent;
+    outline:none;
+}
+#link-button{
+    color:#52565F; 
+    width: 120px;
+    height: 50px;
+    font-weight: 500;
+    background-color: transparent;
+    border:none;
+    border-radius: 5px;
+}
+#forgetPass:hover{
+    text-decoration: underline;
+}
+#login-form{
+    margin-top:20vh;
+}
+#color-button{
+    width: 120px;
+    height: 50px;
+    background-color: #4B5548;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+#color-button:active{
+    background-color: #2e382b;
+}
+#color-button:disabled{
+    opacity: 50%;
+    background-color:  #4B5548;
+}
+#link-button:hover{
+    background-color: rgb(165, 163, 163);
+}
+#link-button:active{
+    background-color: rgb(97, 97, 97);
+}
+form div{
+    text-align: left;
+}
+#sidepic{  
+    float:right;
+}
+#sidepic img{
+    height:92vh;
+}
+#register-form img{
+    margin-top: 5vh;
+}
+#register-form h1{
+    margin-top: 2vh;
+}
+#register-form input[type=text],#register-form input[type=password], #register-form input[type=number]{
+    width: 30vw;
+}
+#gender{
+    width: 30vw !important;
+}
+#reg-form span{
+    padding: 2px;
+}
+#white-board{
+    margin:2% auto;
+    border-radius: 5px;
+}
+#white-board h2{
+    text-align: left;
+    line-height: 10vh;
+    margin-left: 3%;
+}
+#item img{
+    width: 80%;
+}
+#item:hover{
+    background-color: #F5f4f4;
+}
+#buy-button{
+    height: 45px;
+    border:none;
+    background-color: #4B5548;
+    color:white;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+#whiteboard2{
+    margin: 1% auto;  
+    border-radius: 5px;  
+}
+#options .active:hover{
+    text-decoration: none;
+
+}
+#options .nav-link.active{
+    font-weight: bold;   
+}
+.dropdown-setting{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #E5E5E5;
+    margin-bottom:1%;
+    border-radius: 0!important; 
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+#dropDownBtn:focus{
+    box-shadow: none;
+}
+#dropDownBtn img{
+    margin-right: 2%;
+}
+#changeForm input[type=password]::placeholder{
+    color:red;
+}
+#changeForm div{
+    width: 22%;
+    margin-left:5%!important;
+}
+#changeForm input[type=submit], #changeForm input[type=button]{
+    margin-left:80%;
+}
+#changeAddress form div{
+    width:15%;
+} 
+#logout:hover{
+    font-weight: bold;
+}
+#other-article{
+    width:30.5%;
+    z-index: 1;
+}
+#article-link:hover{
+    font-weight: bold;    
+}
+#number-toggle{
+    margin-left: 41.67%;
+}
+#number-toggle img{
+    width: 2rem;
+    height: 2rem!important;
+}
+input[type=number]{
+    border:none;
+    background-color: transparent;
+    outline:none;
+    width:3rem;
+}
+#cart-item{
+    background-color: rgba(229, 229, 229, 0.4);
+}
+#order-history #options .nav-link.active{
+    border-bottom: green solid!important;
+}
+footer {
+    width: 100%;
+    height: 45vh;
+    background: #bbb;
+    padding: 1rem 7rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+footer span {
+    line-height: 2rem;
+}
+.product-title{
+    height:2rem;
+}
+#btn-back-to-top{
+    display: none;
+    background-color: #4B5548;
+    top:45%;
+    left:90%;
+    z-index: 1000;
+}
+.buynow-btn button {
+    background-color: #4B5548;
+}
+.error-tooltip.tooltip > .tooltip-arrow{
+   display: none;
+}
+.error-tooltip.tooltip > .tooltip-inner
+{
+    background-color: #E5E5E5;
+    color: var(--bs-danger);
+    text-align: left;
+    max-width: 500px;
+    margin-left: 10px;  
+}
+#dashboardRedirect {
+    top: 15%;
+    left: 4%;
+    background-color: #4B5548;
+}
+#remove-button{
+    top:20px;
+    right: 20px;
+    width: max-content;
+}
+input[name=cancelReason]{
+    margin-bottom: 20px;
+}
